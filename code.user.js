@@ -57,7 +57,7 @@
                     hide: "Esconder",
                     update_message: "Script foi atualizado! Por favor, baixe a última versão.",
                     update_changes: "O que há de novo?",
-					donate_title: "Ajude o desenvolvimento",
+                    donate_title: "Ajude o desenvolvimento",
                     donate_text: "Se gostar do script e quiser que continue funcionando ou com novas funções, por favor, considere uma %doação%",
                     download: "Download",
                     later: "Depois"
@@ -71,7 +71,7 @@
                     hide: "Schovat",
                     update_message: "Skript byl updatován! Prosím stáhněte si nejnovější verzi.",
                     update_changes: "Co je nového?",
-					donate_title: "Podpořit vývoj",
+                    donate_title: "Podpořit vývoj",
                     donate_text: "Pokud se vám tento skript líbí a přejete si, aby se na něm pracovalo, nebo si přejete přidávat nové funkce, zvažte prosím jeho %podporu%",
                     download: "Stáhnout",
                     later: "Později"
@@ -86,7 +86,7 @@
                     hide: "Schliessen",
                     update_message: "Für das Script ist eine neue Version erhältlich.",
                     update_changes: "Was ist neu?",
-					donate_title: "Entwickler unterstützen",
+                    donate_title: "Entwickler unterstützen",
                     donate_text: "Wenn dir das Script gefällt und es weiterhin verbessert werden soll, überlege dir eine %Spende%.",
                     download: "Update",
                     later: "Später"
@@ -101,7 +101,7 @@
                     hide: "Κρύψε",
                     update_message: "Το σκριπτ ενημερώθηκε! Κάντε λήψη της τελευταίας έκδοσης.",
                     update_changes: "Τι καινούργιο υπάρχει;",
-					donate_title: "Υποστήριξη και Βοήθεια",
+                    donate_title: "Υποστήριξη και Βοήθεια",
                     donate_text: "Αν σας αρέσει το σκριπτ και επιθυμείτε να προστεθούν νέες λειτουργίες ή να μας ενισχύσετε, μπορείτε να κάνετε δωρεά %donation%",
                     download: "Λήψη",
                     later: "Later"
@@ -130,24 +130,11 @@
                     hide: "Esconder",
                     update_message: "¡El script ha sido actualizado! Por favor, descargue la última versión.",
                     update_changes: "¿Qué hay de nuevo?",
-					donate_title: "Apoyando el desarrollo",
+                    donate_title: "Apoyando el desarrollo",
                     donate_text: "Si le gusta este script y desea que siga funcionando o desea que se agreguen nuevas funciones, por favor considere hacer una %donación%",
                     download: "Descargar aquí",
                     later: "Más tarde"
                 },
-                /*!fr: {
-                    already_sent: "",
-					all_sent: "",
-					send: "",
-					sent_msg: "",
-					cancel: "",
-					hide: "",
-					update_message: "If you like this script and wish it's kept working or wish new features to be added, please consider a %donation%",
-					update_changes: "Le script a été mis à jour ! Veuillez télécharger la dernière version.",
-					donate_text: "",
-					download: "Télécharger",
-					later: "Later"
-                },*/
                 hu: {
                     /*! Thanks to Aviendha */
                     already_sent: "%ses_currency elküldve %1 barátnak ennyiből: %2",
@@ -158,7 +145,7 @@
                     hide: "Elrejt",
                     update_message: "A script frissült! Kérlek, töltsd le a legújabb verziót.",
                     update_changes: "Újdonság",
-					donate_title: "A fejlesztés támogatása",
+                    donate_title: "A fejlesztés támogatása",
                     donate_text: "Ha tetszik ez a script, és szeretnéd, hogy továbbra is működjön és új funkciók kerüljenek bele, kérlek küld egy kis %adományt%",
                     download: "Letöltés",
                     later: "Later"
@@ -173,7 +160,7 @@
                     hide: "Nascondi",
                     update_message: "Lo script è stato aggiornato! Per favore, scarica l'ultima versione.",
                     update_changes: "Cosa c'è di nuovo?",
-					donate_title: "Supporta lo sviluppo",
+                    donate_title: "Supporta lo sviluppo",
                     donate_text: "Se ti piace lo script e desideri che continui il suo sviluppo o desideri che altre funzionalità vengano aggiunte, per favore considera una %donazione%",
                     download: "Download",
                     later: "Later"
@@ -188,7 +175,7 @@
                     hide: "verberg",
                     update_message: "Script is ge-update! Download astublieft de nieuwste versie.",
                     update_changes: "Wat is er nieuw?",
-					donate_title: "Steun ontwikkelingen ",
+                    donate_title: "Steun ontwikkelingen ",
                     donate_text: "Als het script je bevalt en wil zorgen dat het blijft werken. Overweeg dan om een %Donatie% te doen",
                     download: "Download",
                     later: "later"
@@ -203,7 +190,7 @@
                     hide: "Schowaj",
                     update_message: "Skrypt wymaga aktualizacji! Prosimy pobrać nową wersję.",
                     update_changes: "Co nowego?",
-					donate_title: "Wesprzyj twórców",
+                    donate_title: "Wesprzyj twórców",
                     donate_text: "Jeżeli lubisz ten skrypt i chcesz aby dalej się rozwijał pomyśl proszę o %donation%",
                     download: "Pobierz",
                     later: "Później"
@@ -218,7 +205,7 @@
                     hide: "Esconder",
                     update_message: "O script foi actualizado! Faz a transferência da versão mais recente.",
                     update_changes: "O que há de novo?",
-					donate_title: "Ajudar o desenvolvimento",
+                    donate_title: "Ajudar o desenvolvimento",
                     donate_text: "Se gostas deste script e desejas que se mantenha a funcionar ou que novas funções sejam adicionadas, por favor considera um %Donativo%",
                     download: "Transferir agora",
                     later: "Mais tarde"
@@ -233,7 +220,7 @@
                     hide: "Ascunde",
                     update_message: "Scriptul a fost actualizat! Vă rugăm să descărcați cea mai recentă versiune.",
                     update_changes: "Ce este nou?",
-					donate_title: "Sprijinirea dezvoltării",
+                    donate_title: "Sprijinirea dezvoltării",
                     donate_text: "Dacă îți place acest script și dorești să se îmbunătățească sau vă doriți să adăugăm noi caracteristici, vă rugăm să luați în considerare o %donație%",
                     download: "Descarca",
                     later: "Later"
@@ -248,7 +235,7 @@
                     hide: "спрятать",
                     update_message: "Скрипт обновлен! Пожалуйста, загрузите последнюю версию.",
                     update_changes: "Что нового?",
-					donate_title: "Поддержка развития",
+                    donate_title: "Поддержка развития",
                     donate_text: "Если вам нравится этот скрипт и вы хотите поработать над ним или хотите добавить новые функции, рассмотрите %пожертвование%",
                     download: "Скачать",
                     later: "потом"
@@ -262,7 +249,7 @@
                     hide: "Schovať",
                     update_message: "Skript bol updatovaný! Prosím stiahnite si najnovšiu verziu.",
                     update_changes: "Čo je nové?",
-					donate_title: "Podporiť vývoj",
+                    donate_title: "Podporiť vývoj",
                     donate_text: "Ak sa vám tento skript páči a prajete si, aby sa pokračovalo v jeho vývoji, alebo si prajete, aby sa pridávali nové funkcie, zvážte prosím jeho %podporu%",
                     download: "Stiahnuť",
                     later: "Neskôr"
@@ -277,7 +264,7 @@
                     hide: "Sakla",
                     update_message: "Betik güncellendi. Lütfen en son sürümü indiriniz.",
                     update_changes: "Neler yeni?",
-					donate_title: "Geliştiriciye bağış",
+                    donate_title: "Geliştiriciye bağış",
                     donate_text: "Bu komut dosyasını beğendiyseniz ve çalışmaya devam etmesini veya yeni özelliklerin eklenmesini istiyorsanız, lütfen %bağış% yapmayı düşünün",
                     download: "İndirme",
                     later: "İndirme"
@@ -442,20 +429,17 @@
                                 var c = Object.keys(l);
                                 o = c.length, r = o - e.gui.progressBar.value, e.up && window.clearTimeout(e.up), 
                                 function t() {
-                                    var u = l[c[d]];
-                                    var g = Game.getServerTime();
-                                    var p = u.activation_time + a.friendsbar.cooldown - g;
-                                    var A = p < e.timeLeft(n) && p < 0;
-                                    A ? e.sendSesCurrency(c[d], function(t) {
-                                        --r < 0 && (r = 0), e.changeCounters(r, o, t.error ? '<span style="color: #900; font-weight: bold;">' + t.msg + "</span>" : s(EzT_lang.sent_msg, u.name.cutIt(14))), 
-                                        v();
-                                    }) : v();
+                                    var u = l[c[d]], g = Game.getServerTime(), p = u.activation_time + a.friendsbar.cooldown - g, A = p < e.timeLeft(n) && p < 0;
                                     function v() {
                                         d < c.length - 1 && e.processing ? (d++, e.t = window.setTimeout(function() {
                                             t();
                                         }, A ? Math.floor(1501 * Math.random() + 1500) : 100)) : (e.processing = false, 
                                         e.updateCounters(), e.gui.progressMsg.text(EzT_lang.all_sent.replace("%ses_currency", i)));
                                     }
+                                    A ? e.sendSesCurrency(c[d], function(t) {
+                                        --r < 0 && (r = 0), e.changeCounters(r, o, t.error ? '<span style="color: #900; font-weight: bold;">' + t.msg + "</span>" : s(EzT_lang.sent_msg, u.name.cutIt(14))), 
+                                        v();
+                                    }) : v();
                                 }();
                             }
                         });
