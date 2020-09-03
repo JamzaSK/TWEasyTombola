@@ -386,7 +386,7 @@
                 disableAll: function() {
                     throw $("#EzT_icon").remove(), this.t && (window.clearTimeout(this.t), delete this.t), 
                     this.processing = false, this.up && window.clearTimeout(this.up), this.gui.dialog && this.gui.dialog.getMainDiv().remove(), 
-                    "EventHelper/: Event is over!";
+                    "Easy Tombola/: Event is over!";
                 },
                 handleEventEnd: function() {
                     var e = this, t = 0, a = EzT.getSesEvent();
