@@ -332,8 +332,9 @@
             CurrencySender: {
                 gui: {},
                 init: function() {
+                    var e = this;
                     EzT.getSesEvent() && (this.createIcon(), this.updateCounters(), EventHandler.listen([ "friend_added", "friend_removed" ], function() {
-                        self.updateCounters();
+                        e.updateCounters();
                     }), this.handleEventEnd());
                 },
                 createIcon: function() {
@@ -429,17 +430,20 @@
                                 var c = Object.keys(l);
                                 o = c.length, r = o - e.gui.progressBar.value, e.up && window.clearTimeout(e.up), 
                                 function t() {
-                                    var u = l[c[d]], g = Game.getServerTime(), p = u.activation_time + a.friendsbar.cooldown - g, A = p < e.timeLeft(n) && p < 0;
+                                    var u = l[c[d]];
+                                    var g = Game.getServerTime();
+                                    var p = u.activation_time + a.friendsbar.cooldown - g;
+                                    var A = p < e.timeLeft(n) && p < 0;
+                                    A ? e.sendSesCurrency(c[d], function(t) {
+                                        --r < 0 && (r = 0), e.changeCounters(r, o, t.error ? '<span style="color: #900; font-weight: bold;">' + t.msg + "</span>" : s(EzT_lang.sent_msg, u.name.cutIt(14))), 
+                                        v();
+                                    }) : v();
                                     function v() {
                                         d < c.length - 1 && e.processing ? (d++, e.t = window.setTimeout(function() {
                                             t();
                                         }, A ? Math.floor(1501 * Math.random() + 1500) : 100)) : (e.processing = false, 
                                         e.updateCounters(), e.gui.progressMsg.text(EzT_lang.all_sent.replace("%ses_currency", i)));
                                     }
-                                    A ? e.sendSesCurrency(c[d], function(t) {
-                                        --r < 0 && (r = 0), e.changeCounters(r, o, t.error ? '<span style="color: #900; font-weight: bold;">' + t.msg + "</span>" : s(EzT_lang.sent_msg, u.name.cutIt(14))), 
-                                        v();
-                                    }) : v();
                                 }();
                             }
                         });
